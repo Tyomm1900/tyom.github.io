@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+html {
+    background-image: url(./assets/wallpaper.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul, li {
+    display: inline;
+    list-style: none;
+}
+
+nav {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+h1, a {
+    color: aliceblue;
+}
+
+a {
+    font-family: 'Secular One', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 3vh;
+    font-family: 'Secular One', sans-serif;
+}
+
+.img-link {
+    filter: invert(1);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+}
+
+.img-link:hover {
+    transform: scale(1.1);
+}
+
+.attribution-links {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution-links > a {
+    font-size: 1.1rem;
+}
+
+.main-content {
+    margin-top: 25vh;
+    text-align: center;
+}
+
+#last-attribution {
+    float: right;
+}
+
+nav {
+    text-align: center;
+    display: flex 1 ;
+}
+
+.nav-element {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.4rem;
+}
